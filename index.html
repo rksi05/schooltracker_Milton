@@ -88,7 +88,7 @@
         Modified by Christina Gu in 2022.
     </p>
     <button onclick="github()">
-        View Kason Gu's source on Github
+        View source on Github
     </button>
 </div>
 <script>
@@ -98,7 +98,7 @@
     const end = new Date(2022, 11, 14, 12, 30);
     let trueDuration = end - start;
     document.getElementById("total").innerText = (trueDuration / (1000 * 60 * 60)).toFixed(1);
-    const github = () => open("https://github.com/croissant676/SchoolTracker");
+    const github = () => open("https://github.com/rksi05/schooltracker_Milton");
     setInterval(function () {
         const current = new Date();
         let millisSinceStart = current - start;
